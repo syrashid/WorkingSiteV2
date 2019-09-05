@@ -1,0 +1,11 @@
+@import "components/pages.css";
+@import "components/navbar.css";
+@import "components/slideshow.css"
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+}
+

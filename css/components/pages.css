@@ -1,0 +1,23 @@
+.splash {
+  height: 100vh;
+  display: flex;
+}
+
+.splash-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4vh 4vw 4vh 4vw;
+  flex-grow: 1
+}
+
+.page {
+  height: 100vh;
+  padding: 4vh 4vw;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
