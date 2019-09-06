@@ -1,6 +1,6 @@
 @import "components/pages.css";
 @import "components/navbar.css";
-@import "components/slideshow.css"
+@import "components/slideshow.css";
 
 * {
   box-sizing: border-box;
