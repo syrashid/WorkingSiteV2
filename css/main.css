@@ -1,6 +1,8 @@
 @import "components/pages.css";
 @import "components/navbar.css";
-@import "components/slideshow.css";
+@import "components/portfolioslideshow.css";
+
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Poppins&display=swap');
 
 * {
   box-sizing: border-box;
@@ -10,5 +12,24 @@ body {
   margin: 0 auto;
 }
 
+h1, h2, h3, p {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
 
+h4, h5, a {
+  font-family: 'Fjalla One', sans-serif;
+  margin: 0;
+}
 
+h1 {
+  font-size: 6vw;
+}
+
+h4 {
+  font-size: 3vh;
+}
+
+img {
+  vertical-align: middle;
+}
