@@ -12,8 +12,8 @@
 }
 
 .page {
-  height: 100vh;
-  padding: 4vh 4vw;
+  height: 120vh;
+  padding: 14vh 4vw;
 }
 
 .portfolio, .about, .photos, .misc {
@@ -29,4 +29,17 @@
 
 .storybox, .sy-photo, .mapbox, .misc-slideshow {
   width: 50%;
+  height: 80vh;
+  padding: 2vh 0;
 }
+
+.sy-photo {
+  object-fit: cover;
+  padding-right: 2vw;
+}
+
+.storybox {
+  padding-left: 2vw;
+  overflow: scroll;
+}
+
