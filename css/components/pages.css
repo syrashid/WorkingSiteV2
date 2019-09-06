@@ -16,8 +16,17 @@
   padding: 4vh 4vw;
 }
 
-.portfolio {
+.portfolio, .about, .photos, .misc {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.about-content, .misc-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.storybox, .sy-photo, .mapbox, .misc-slideshow {
+  width: 50%;
 }
