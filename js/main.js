@@ -47,4 +47,5 @@ function showPhotos(n) {
   dots[photoIndex-1].className += " active";
 }
 
-// JS for MapBox
+
+
