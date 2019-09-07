@@ -17,3 +17,34 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
 }
+
+// JS for Photo Slideshow
+
+var photoIndex = 1;
+showPhotos(photoIndex);
+
+// Next/previous controls
+function plusPhoto(n) {
+  showPhotos(photoIndex += n);
+}
+
+// Thumbnail image controls
+function currentPhoto(n) {
+  showPhotos(photoIndex = n);
+}
+
+function showPhotos(n) {
+  var i;
+  var photos = document.getElementsByClassName("myPhotos");
+  var dots = document.getElementsByClassName("dot");
+  if (n > photos.length) {photoIndex = 1}
+  if (n < 1) {photoIndex = photos.length}
+  for (i = 0; i < photos.length; i++) {
+      photos[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  photos[photoIndex-1].style.display = "block";
+  dots[photoIndex-1].className += " active";
+}

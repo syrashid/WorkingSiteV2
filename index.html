@@ -20,6 +20,7 @@
 </head>
 
 <body>
+  <!-- SPLASH PAGE -->
   <div class="splash">
     <div class="splash-content">
       <div class="navbar">
@@ -36,6 +37,7 @@
     </div>
   </div>
 
+  <!-- PORTFOLIO PAGE -->
   <div class="page portfolio">
 
     <div class="slideshow-container">
@@ -82,13 +84,11 @@
 
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
     </div>
-    <!-- TO DO: Implement Javascript -->
-
     <h1>portfolio</h1>
   </div>
 
+  <!-- ABOUT PAGE -->
   <div class="page about">
     <div class = "about-content">
       <img src="https://images.unsplash.com/photo-1532910404247-7ee9488d7292?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9" alt="Photo of Sy Rashid" class="sy-photo">
@@ -104,26 +104,48 @@
     <h1>about</h1>
   </div>
 
-
+  <!-- PHOTOS PAGE -->
   <div class="page photos">
-    <div class="slideshow-container">
-      <p>photo slideshow placeholder</p>
-    </div>
-    <h1>photos</h1>
-  </div>
-  <div class="page misc">
-    <div class="misc-content">
-      <div class="mapbox">
-        <p>map placeholder</p>
+    <div class="photos-container">
+
+      <div class="myPhotos fade">
+        <img src="https://source.unsplash.com/featured/?travel" style="width:100%">
       </div>
-      <div class="misc-slideshow">
-        <p>slideshow placeholder</p>
+
+      <div class="myPhotos fade">
+        <img src="https://source.unsplash.com/featured/?nature" style="width:100%">
+      </div>
+
+      <div class="myPhotos fade">
+        <img src="https://source.unsplash.com/featured/?mountains" style="width:100%">
+      </div>
+
+      <a class="prev" onclick="plusPhoto(-1)">&#10094;</a>
+      <a class="next" onclick="plusPhoto(1)">&#10095;</a>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentPhoto(1)"></span>
+        <span class="dot" onclick="currentPhoto(2)"></span>
+        <span class="dot" onclick="currentPhoto(3)"></span>
       </div>
     </div>
-    <h1>not photos</h1>
+  <h1>photos</h1>
+</div>
+
+<!-- MISC PAGE -->
+<div class="page misc">
+  <div class="misc-content">
+    <div class="mapbox">
+      <p>map placeholder</p>
+    </div>
+    <div class="misc-slideshow">
+      <p>slideshow placeholder</p>
+    </div>
   </div>
+  <h1>not photos</h1>
+</div>
 
 
-  <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
