@@ -23,12 +23,10 @@ function showSlides(n) {
 var photoIndex = 1;
 showPhotos(photoIndex);
 
-// Next/previous controls
 function plusPhoto(n) {
   showPhotos(photoIndex += n);
 }
 
-// Thumbnail image controls
 function currentPhoto(n) {
   showPhotos(photoIndex = n);
 }

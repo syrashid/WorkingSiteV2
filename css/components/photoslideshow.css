@@ -1,22 +1,23 @@
 .photos-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* Hide the images by default */
-.myPhotos {
-  display: none;
+.photos-container img {
+  object-fit: cover;
+  width: 92vw;
+  height: 70vh;
 }
 
-/* Next & previous buttons */
+.myPhotos { display: none; }
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
   padding: 16px;
+  margin-top: -22px;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -49,6 +50,9 @@
   background-color: #717171;
 }
 
+.instagram-link {
+  text-decoration: none;
+}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;

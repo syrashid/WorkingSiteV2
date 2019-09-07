@@ -1,6 +1,7 @@
 .splash {
   height: 100vh;
   display: flex;
+  min-width: 320px;
 }
 
 .splash-content {
@@ -14,6 +15,7 @@
 .page {
   height: 120vh;
   padding: 14vh 4vw;
+  min-width: 320px;
 }
 
 .portfolio, .about, .photos, .misc {

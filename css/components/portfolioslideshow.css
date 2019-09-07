@@ -2,12 +2,15 @@
 
 /* Slideshow container */
 .slideshow-container {
-  width: 92vw;
-  min-width: 320px;
   position: relative;
   margin: auto;
 }
 
+.slideshow-container img {
+  object-fit: cover;
+  width: 92vw;
+  height: 70vh;
+}
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -35,7 +38,7 @@
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
+/* Caption text, default visibility hidden */
 .portfolio-info {
     position: absolute;
     bottom: 32px;
@@ -49,11 +52,13 @@
     transition: opacity 800ms, visibility 800ms;
 }
 
+/* Caption text appear upon hover */
 .portfolio-link:hover .portfolio-info{
   visibility: visible;
   opacity: 1;
 }
 
+/* Remove link styling */
 .portfolio-link {
   text-decoration: none;
 }
