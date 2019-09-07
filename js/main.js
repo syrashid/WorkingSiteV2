@@ -46,3 +46,5 @@ function showPhotos(n) {
   photos[photoIndex-1].style.display = "block";
   dots[photoIndex-1].className += " active";
 }
+
+// JS for MapBox
