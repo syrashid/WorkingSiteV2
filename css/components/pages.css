@@ -2,14 +2,25 @@
   height: 100vh;
   display: flex;
   min-width: 320px;
+  background-image: url("../../img/splash.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .splash-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 4vh 4vw 4vh 4vw;
-  flex-grow: 1
+  padding: 4vh 3vw 6vh 4vw;
+  flex-grow: 1;
+}
+
+.splash-content h1 {
+  color: rgba(255, 255, 255, 0.85)
+}
+
+.splash-highlight {
+  color: rgba(0, 238, 175, 0.9)
 }
 
 .page {

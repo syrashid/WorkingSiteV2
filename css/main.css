@@ -7,6 +7,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Poppins&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
 * {
   box-sizing: border-box;
 }
@@ -26,7 +29,7 @@ h4, h5, a {
 }
 
 h1 {
-  font-size: 6vw;
+  font-size: 5vw;
 }
 
 h4 {
