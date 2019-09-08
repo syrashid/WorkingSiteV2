@@ -2,3 +2,12 @@
   display: flex;
   justify-content: space-between;
 }
+
+.menu a{
+  text-decoration: none;
+  color: black;
+}
+
+.menu a:hover{
+  opacity: 0.6;
+}
