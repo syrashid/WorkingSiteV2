@@ -47,5 +47,31 @@ function showPhotos(n) {
   dots[photoIndex-1].className += " active";
 }
 
+// JS for Misc Slideshow
 
+var miscIndex = 1;
+showMisc(miscIndex);
 
+function plusMisc(n) {
+  showMisc(miscIndex += n);
+}
+
+function currentMisc(n) {
+  showMisc(miscIndex = n);
+}
+
+function showMisc(n) {
+  var i;
+  var misc = document.getElementsByClassName("myMisc");
+  var miscdots = document.getElementsByClassName("miscdot");
+  if (n > misc.length) {miscIndex = 1}
+  if (n < 1) {miscIndex = misc.length}
+  for (i = 0; i < misc.length; i++) {
+      misc[i].style.display = "none";
+  }
+  for (i = 0; i < miscdots.length; i++) {
+      miscdots[i].className = miscdots[i].className.replace(" active", "");
+  }
+  misc[miscIndex-1].style.display = "block";
+  miscdots[miscIndex-1].className += " active";
+}
