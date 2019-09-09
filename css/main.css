@@ -29,7 +29,11 @@ h4, h5, a {
 }
 
 h1 {
-  font-size: 5vw;
+  font-size: 11vh;
+}
+
+h2 {
+  font-size: 5vh;
 }
 
 h4 {
