@@ -45,9 +45,18 @@
 }
 
 
-.storybox, .sy-photo, .mapbox, .misc-slideshow {
+.storybox, .sy-photo, .misc-slideshow {
   width: 50%;
   height: 80vh;
+}
+
+.mapbox {
+  width: 46%;
+  height: 80vh;
+}
+
+.misc-slideshow {
+  padding-left: 4vw;
 }
 
 .sy-photo {
