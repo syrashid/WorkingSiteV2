@@ -53,6 +53,10 @@
     transition: opacity 800ms, visibility 800ms;
 }
 
+.portfolio-info p{
+  font-weight: bolder;
+}
+
 /* Caption text appear upon hover */
 .portfolio-link:hover .portfolio-info{
   visibility: visible;

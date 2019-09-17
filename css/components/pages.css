@@ -44,6 +44,9 @@
   background-color: rgba(0, 238, 175, 1);
 }
 
+.about h1 {
+  color: white;
+}
 
 .storybox, .sy-photo, .misc-slideshow {
   width: 50%;

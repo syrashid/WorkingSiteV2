@@ -51,6 +51,10 @@
     transition: opacity 800ms, visibility 800ms;
 }
 
+.misc-info p{
+  font-weight: bolder;
+}
+
 /* Caption text appear upon hover */
 .misc-link:hover .misc-info{
   visibility: visible;
