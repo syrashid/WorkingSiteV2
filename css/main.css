@@ -5,6 +5,7 @@
 @import "components/miscslideshow.css";
 @import "components/map.css";
 @import "components/speech_bubble.css";
+@import "components/contactpage.css";
 
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Poppins&display=swap');
 
@@ -30,7 +31,7 @@ h4, h5, a {
 }
 
 h1 {
-  font-size: 6vw;
+  font-size: 72px;
 }
 
 h2 {
@@ -42,7 +43,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1vw;
+  font-size: 24px;
 }
 
 img {

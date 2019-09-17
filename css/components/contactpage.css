@@ -1,0 +1,36 @@
+.contact {
+  background-color: rgb(15,15,15);
+  height: 100vh;
+  padding: 20vh 24vw 20vh 4vw;
+  min-width: 320px;
+}
+
+.contact img {
+  margin-bottom: 8vh;
+}
+
+.contact h2 {
+  color: white;
+  margin-bottom: 12vh;
+}
+
+.contact h3 {
+  font-family: 'Fjalla One', sans-serif;
+  color: rgba(0, 238, 175, 1);
+  margin-bottom: 4vh;
+  font-weight: lighter;
+}
+
+.connect-bar a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+  margin-right: 3em;
+  font-size: 20px;
+}
+
+.connect-bar a:hover{
+  color: rgba(0, 238, 175, 0.9);
+  transition: 0.35s ease-in-out;
+  border-bottom: 3px solid;
+  padding-bottom: 6px;
+}
