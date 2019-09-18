@@ -75,3 +75,9 @@ function showMisc(n) {
   misc[miscIndex-1].style.display = "block";
   miscdots[miscIndex-1].className += " active";
 }
+
+// JS for Dropdown on mobile
+
+function dropDown() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
