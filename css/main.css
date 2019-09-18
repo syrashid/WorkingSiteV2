@@ -8,16 +8,14 @@
 @import "pages/portfoliopage.css";
 @import "pages/splashpage.css";
 
-
-
-
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+}
 
 html {
   scroll-behavior: smooth;
-}
-* {
-  box-sizing: border-box;
 }
 
 body {
