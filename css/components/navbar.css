@@ -7,14 +7,14 @@
   width: 6vw;
 }
 
-.menu a{
+.menu .tab{
   text-decoration: none;
   color: rgba(255, 255, 255, 0.9);
   margin: 1.5em;
   font-size: 20px;
 }
 
-.menu a:not(:last-child):hover{
+.menu .tab:hover{
   color: rgba(0, 238, 175, 0.9);
   transition: 0.35s ease-in-out;
   border-bottom: 3px solid;
@@ -28,27 +28,33 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 300px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0, 0.4);
+  min-width: 160px;
   right: 0;
   z-index: 1;
+  text-align: right;
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
+  color: white;
   text-decoration: none;
   display: block;
+  font-size: 20px;
+  margin: 1.5em;
 }
 
-.dropdown-content a:hover {background-color: #ddd}
+.dropdown-content a:hover {
+  color: rgba(0, 238, 175, 0.9);
+    transition: 0.35s ease-in-out;
+  border-bottom: 3px solid;
+  padding-bottom: 6px 0;
+}
 
 .hamburger div{
   width: 36px;
   height: 6px;
   background-color: rgba(255, 255, 255, 0.85);
-  margin: 8px;
+  margin: 8px 0px;
 }
 
 .show {display:block;}
