@@ -45,7 +45,7 @@
 
 .dropdown-content a:hover {
   color: rgba(0, 238, 175, 0.9);
-    transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
   border-bottom: 3px solid;
   padding-bottom: 6px 0;
 }
@@ -60,21 +60,21 @@
 .show {display:block;}
 
 @media screen and (max-width: 800px) {
-.menu .tab {
-  display:none;
-  margin: 0;
-}
-.dropdown {
-  float: right;
-  position: relative;
-  display: inline-block;
-}
-.hamburger:hover div{
-  background-color: rgba(0, 238, 175, 0.9);
-  transition: 0.35s ease-in-out;
-}
-.logo {
-  width: 48px;
-  height: 48px;
-}
+  .menu .tab {
+    display:none;
+    margin: 0;
+  }
+  .dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+  }
+  .hamburger:hover div{
+    background-color: rgba(0, 238, 175, 0.9);
+    transition: 0.35s ease-in-out;
+  }
+  .logo {
+    width: 48px;
+    height: 48px;
+  }
 }

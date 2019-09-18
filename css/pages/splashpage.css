@@ -25,6 +25,9 @@
 
 @media screen and (max-width: 800px) {
 .splash-content h1 { font-size: 54px; }
+.splash {
+  background-image: url("../../img/splashmobile.jpg");
+}
 }
 
 @media screen and (max-width: 600px) {
