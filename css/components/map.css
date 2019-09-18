@@ -1,4 +1,6 @@
 .mapbox {
+  width: 46%;
+  height: 80vh;
 }
 
 #map {

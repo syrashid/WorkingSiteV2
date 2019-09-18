@@ -1,16 +1,38 @@
-.myProjs {display: none}
-
-/* Slideshow container */
-.slideshow-container {
-  position: relative;
-  margin: auto;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+.misc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(15,15,15);
 }
 
-.slideshow-container img {
+.misc-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.misc-slideshow {
+  width: 50%;
+  height: 80vh;
+  padding-left: 4vw;
+}
+
+.misc h1 {
+  color: rgba(0, 238, 175, 1);
+}
+
+
+.myMisc {display: none}
+
+/* Slideshow container */
+.misc-container {
+  position: relative;
+  margin: auto;
+}
+
+.misc-container img {
   object-fit: cover;
-  width: 92vw;
-  height: 70vh;
+  height:80vh;
 }
 /* Next & previous buttons */
 .prev, .next {
@@ -40,49 +62,63 @@
 }
 
 /* Caption text, default visibility hidden */
-.portfolio-info {
+.misc-info {
     position: absolute;
     bottom: 32px;
     width: 100%;
     padding: 1.5vh 2vw;
-    background: rgba(255, 255, 255, 0.7);
-    color: #343a40;
+    background: rgba(255, 255, 255, 0.6);
+    color: rgba(0,0,0,0.75);
     opacity: 0;
     visibility: hidden;
     -webkit-transition: opacity 800ms, visibility 800ms;
     transition: opacity 800ms, visibility 800ms;
 }
 
-.portfolio-info p{
+.misc-info p{
   font-weight: bolder;
 }
 
 /* Caption text appear upon hover */
-.portfolio-link:hover .portfolio-info{
+.misc-link:hover .misc-info{
   visibility: visible;
   opacity: 1;
 }
 
 /* Remove link styling */
-.portfolio-link {
+.misc-link {
   text-decoration: none;
 }
 
+.miscdot {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .miscdot:hover {
+  background-color: #717171;
+}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 2.5s;
+  -webkit-animation-duration: 1.5s;
   animation-name: fade;
-  animation-duration: 2.5s;
+  animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .8}
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .8}
+  from {opacity: .4}
   to {opacity: 1}
 }
 

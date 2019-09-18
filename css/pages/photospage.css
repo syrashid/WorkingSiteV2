@@ -1,3 +1,18 @@
+.photos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.photos {
+  background-color: white;
+}
+
+.photos h1 {
+  color: rgba(0, 238, 175, 0.75);
+}
+
+
 .photos-container {
   position: relative;
   margin: auto;

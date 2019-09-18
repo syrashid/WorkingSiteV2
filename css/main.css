@@ -1,11 +1,15 @@
-@import "components/pages.css";
-@import "components/navbar.css";
-@import "components/portfolioslideshow.css";
-@import "components/photoslideshow.css";
-@import "components/miscslideshow.css";
 @import "components/map.css";
+@import "components/navbar.css";
 @import "components/speech_bubble.css";
-@import "components/contactpage.css";
+@import "pages/aboutpage.css";
+@import "pages/contactpage.css";
+@import "pages/miscpage.css";
+@import "pages/photospage.css";
+@import "pages/portfoliopage.css";
+@import "pages/splashpage.css";
+
+
+
 
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Poppins&display=swap');
 
@@ -18,6 +22,12 @@ html {
 
 body {
   margin: 0 auto;
+}
+
+.page {
+  height: 105vh;
+  padding: 5vh 4vw;
+  min-width: 320px;
 }
 
 h1, h2, h3, p {
