@@ -68,15 +68,15 @@
 
 @media screen and (max-width: 800px) {
   .photos h1 { font-size: 54px; }
-  .photos { height: 90vh; }
+  .photos { height: 85vh; }
 }
 
 @media screen and (max-width: 600px) {
   .photos h1 { font-size: 40px; }
-  .photos { height: 80vh; }
+  .photos { height: 70vh; }
 }
 
 @media screen and (max-width: 450px) {
   .photos h1 { font-size: 36px; }
-  .photos { height: 70vh; }
+  .photos { height: 60vh; }
 }
