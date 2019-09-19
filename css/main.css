@@ -22,12 +22,6 @@ body {
   margin: 0 auto;
 }
 
-.page {
-  height: 105vh;
-  padding: 5vh 4vw;
-  min-width: 320px;
-}
-
 h1, h2, h3, p {
   font-family: 'Poppins', sans-serif;
   margin: 0;

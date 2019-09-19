@@ -1,7 +1,7 @@
 .splash {
   height: 100vh;
   display: flex;
-  min-width: 320px;
+  min-width: 300px;
   background-image: url("../../img/splash.jpg");
   background-size: cover;
   background-attachment: fixed;

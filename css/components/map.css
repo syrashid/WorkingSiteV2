@@ -48,3 +48,22 @@
  opacity: 1;
  right: 0;
 }
+
+@media screen and (max-width: 1000px) {
+  #map {
+    position: relative;
+  }
+  #fly {
+    width: 100%;
+  }
+  .mapbox {
+    width: 100%;
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .mapbox {
+    height: 40vh;
+  }
+}

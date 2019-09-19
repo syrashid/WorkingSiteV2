@@ -3,6 +3,9 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: rgb(15,15,15);
+  height: 105vh;
+  padding: 5vh 4vw;
+  min-width: 300px;
 }
 
 .misc-content {
@@ -13,12 +16,13 @@
 
 .misc-slideshow {
   width: 50%;
-  height: 80vh;
+  max-height: 80vh;
   padding-left: 4vw;
 }
 
 .misc h1 {
   color: rgba(0, 238, 175, 1);
+  margin-top: 6vh;
 }
 
 
@@ -32,7 +36,7 @@
 
 .misc-container img {
   object-fit: cover;
-  height:80vh;
+  height: 80vh;
 }
 /* Next & previous buttons */
 .prev, .next {
@@ -67,7 +71,7 @@
     bottom: 32px;
     width: 100%;
     padding: 1.5vh 2vw;
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.8);
     color: rgba(0,0,0,0.75);
     opacity: 0;
     visibility: hidden;
@@ -122,7 +126,51 @@
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next {font-size: 11px}
+
+@media screen and (max-width: 1000px) {
+  .misc h1 { font-size: 54px; }
+  .misc {
+    height: 180vh;
+  }
+  .misc-content {
+    flex-direction: column;
+  }
+  .misc-slideshow {
+    width: 100%;
+    margin-top: 8vh;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+.misc h1 { font-size: 40px; }
+.misc-info {
+  visibility: visible;
+  opacity: 1;
+}
+.miscdot {
+  display: none;
+}
+.misc {
+  height: 140vh;
+}
+.misc-container img {
+  height: 60vh;
+}
+  .misc-info h4 {
+    font-size: 21px
+  }
+  .misc-info p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+.misc h1 { font-size: 36px; }
+  .misc-info h4 {
+    font-size: 18px
+  }
+  .misc-info p {
+    font-size: 12px;
+  }
 }

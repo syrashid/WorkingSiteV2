@@ -5,7 +5,7 @@
   background-color: rgba(0, 238, 175, 1);
   height: 105vh;
   padding: 5vh 4vw;
-  min-width: 320px;
+  min-width: 300px;
 }
 
 .about-content {
@@ -53,4 +53,5 @@
 
 @media screen and (max-width: 450px) {
 .about h1 { font-size: 36px; }
+.storybox p { font-size: 12px; }
 }
