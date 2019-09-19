@@ -78,8 +78,9 @@ function showMisc(n) {
 
 // JS for Dropdown on mobile
 
-function dropDown() {
+function dropDown(x) {
   document.getElementById("myDropdown").classList.toggle("show");
+  x.classList.toggle("change");
 }
 
 

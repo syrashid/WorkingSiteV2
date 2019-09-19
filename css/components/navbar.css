@@ -23,6 +23,7 @@
 
 .dropdown {
   display: none;
+  cursor: pointer;
 }
 
 .dropdown-content {
@@ -50,11 +51,27 @@
   padding-bottom: 6px 0;
 }
 
+
 .hamburger div{
   width: 36px;
   height: 6px;
   background-color: rgba(255, 255, 255, 0.85);
   margin: 8px 0px;
+  transition: 1s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-12px, 5px) ;
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-14px, -8px) ;
 }
 
 .show {display:block;}
