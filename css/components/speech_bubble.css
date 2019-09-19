@@ -68,7 +68,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
   .story-title h3 {
     font-size: 16px;
   }
