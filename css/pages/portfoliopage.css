@@ -35,7 +35,7 @@
   margin-top: -22px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 21px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -54,16 +54,16 @@
 
 /* Caption text, default visibility hidden */
 .portfolio-info {
-    position: absolute;
-    bottom: 32px;
-    width: 100%;
-    padding: 1.5vh 2vw;
-    background: rgba(255, 255, 255, 0.7);
-    color: #343a40;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: opacity 800ms, visibility 800ms;
-    transition: opacity 800ms, visibility 800ms;
+  position: absolute;
+  bottom: 32px;
+  width: 100%;
+  padding: 1.5vh 2vw;
+  background: rgba(255, 255, 255, 0.7);
+  color: #343a40;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 800ms, visibility 800ms;
+  transition: opacity 800ms, visibility 800ms;
 }
 
 .portfolio-info p{
@@ -113,9 +113,29 @@
 @media screen and (max-width: 600px) {
   .portfolio h1 { font-size: 40px; }
   .portfolio { height: 80vh; }
+  .prev, .next {
+    padding: 12px;
+    font-size: 16px;
+  }
+  .portfolio-info h4 {
+    font-size: 21px
+  }
+  .portfolio-info p {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 450px) {
   .portfolio h1 { font-size: 36px; }
   .portfolio { height: 70vh; }
+  .prev, .next {
+    padding: 9px;
+    font-size: 12px;
+  }
+  .portfolio-info h4 {
+    font-size: 18px
+  }
+  .portfolio-info p {
+    font-size: 12px;
+  }
 }
