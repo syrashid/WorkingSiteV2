@@ -4,6 +4,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 105vh;
+  padding: 5vh 4vw;
+  min-width: 320px;
 }
 
 .portfolio h1 {
@@ -20,7 +23,7 @@
 .slideshow-container img {
   object-fit: cover;
   width: 92vw;
-  height: 70vh;
+  max-height: 70vh;
 }
 /* Next & previous buttons */
 .prev, .next {
@@ -96,7 +99,23 @@
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+@media screen and (max-width: 800px) {
+  .portfolio h1 { font-size: 54px; }
+  .portfolio-info {
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+    bottom:0px;
+  }
+  .portfolio { height: 90vh; }
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio h1 { font-size: 40px; }
+  .portfolio { height: 80vh; }
+}
+
+@media screen and (max-width: 450px) {
+  .portfolio h1 { font-size: 36px; }
+  .portfolio { height: 70vh; }
 }
