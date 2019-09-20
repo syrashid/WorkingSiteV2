@@ -36,4 +36,5 @@
 
 @media screen and (max-width: 450px) {
 .splash-content h1 { font-size: 36px; }
+.splash { background-attachment: scroll }
 }
