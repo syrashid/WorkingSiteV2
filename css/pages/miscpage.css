@@ -143,7 +143,10 @@
 }
 
 @media screen and (max-width: 600px) {
-.misc h1 { font-size: 40px; }
+.misc h1 {
+  font-size: 40px;
+  margin-top: 0;
+  }
 .misc-info {
   visibility: visible;
   opacity: 1;
@@ -166,9 +169,14 @@
 }
 
 @media screen and (max-width: 450px) {
-.misc h1 { font-size: 36px; }
+.misc h1 {
+  font-size: 36px;
+  }
   .misc-info h4 {
     font-size: 18px
+  }
+  .misc {
+    height: 140vh;
   }
   .misc-info p {
     font-size: 12px;
